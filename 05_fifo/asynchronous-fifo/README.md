@@ -69,6 +69,11 @@ iverilog -g2012 -o sim rtl/async_fifo.sv tb/async_fifo_tb.sv
 vvp sim
 gtkwave dump.vcd
 ```
+## Simulation Waveform
+
+The waveform below shows the asynchronous FIFO simulation with independent read and write clock domains.
+
+![Asynchronous FIFO Simulation](async_fifo_waveform.png)
 
 ## Known limitations / things to improve
 
